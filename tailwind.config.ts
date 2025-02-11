@@ -42,7 +42,7 @@ export default {
         heading4: '1.25rem', // 20px
         heading5: '1.125rem', // 18px
         heading6: '1rem', // 16px
-        heading7: '0.875rem', // 14px
+        text_14: '0.875rem', // 14px
       },
       lineHeight: {
         tight: '1.1',

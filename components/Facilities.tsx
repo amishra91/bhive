@@ -40,7 +40,7 @@ const Facilities = () => {
               width={30}
               height={30}
             />
-            <p className="font-medium text-brand-primary sm:text-heading5 text-heading7">
+            <p className="font-medium text-brand-primary sm:text-heading5 text-text_14">
               {facility.label}
             </p>
           </div>

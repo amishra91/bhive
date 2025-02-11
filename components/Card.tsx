@@ -43,12 +43,12 @@ const Card = ({ space }: Props) => {
 
       <div className="flex items-center gap-3 mt-6">
         <Button
-          className="bg-brand-background border"
+          className="bg-brand-background stroke-text-subdued"
           passType="day"
           dayPassPrice={space.day_pass_price}
         />
         <Button
-          className="bg-brand-accent border-brand-accent"
+          className="bg-brand-accent stroke-button-secondary"
           passType="bulk"
           dayPassPrice={space.day_pass_price}
           days={10}

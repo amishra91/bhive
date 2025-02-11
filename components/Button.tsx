@@ -26,7 +26,7 @@ const Button = ({
   const priceText: React.ReactNode = (
     <span className="font-semibold text-brand-primary text-heading4">
       ₹ {passType === 'bulk' ? discountedPrice : dayPassPrice}{' '}
-      <span className="text-brand-primary/70 text-[12px]">
+      <span className="text-brand-primary text-[12px]">
         / {passType === 'bulk' ? `${days} Days` : 'Day'}
       </span>
     </span>
@@ -38,7 +38,7 @@ const Button = ({
     >
       {discountAmount > 0 && <Badge discountPercentage={discountPercentage} />}
 
-      <span className="capitalize text-brand-primary/50 font-medium text-heading7">
+      <span className="capitalize text-brand-secondary font-medium text-text_14">
         {passType} Pass
       </span>
       <span className="self-end">
