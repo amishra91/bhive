@@ -1,3 +1,4 @@
+import Badge from './Badge';
 import Image from 'next/image';
 import React from 'react';
 
@@ -33,8 +34,10 @@ const Button = ({
 
   return (
     <button
-      className={`${className} cursor-pointer flex flex-col rounded-md py-2 px-3 flex-1 border border-brand-primary/20`}
+      className={`${className} cursor-pointer flex flex-col rounded-md py-3 pb-2 px-3 flex-1 border border-brand-primary/20 relative`}
     >
+      {discountAmount > 0 && <Badge discountPercentage={discountPercentage} />}
+
       <span className="capitalize text-brand-primary/50 font-medium text-heading7">
         {passType} Pass
       </span>
